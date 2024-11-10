@@ -1,0 +1,35 @@
+# Core Flask packages compatible with Flask 2.x
+Flask==2.3.3  # Downgraded to ensure compatibility
+Flask-CORS==3.0.10
+Flask-RESTful==0.3.9
+Flask-SQLAlchemy==2.5.1
+Flask-Migrate==3.1.0
+Flask-JWT-Extended==4.4.4
+
+# MySQL Database connectors and utilities (choose one preferred connector)
+PyMySQL==1.0.2  # MySQL database connector for SQLAlchemy
+mysql-connector-python==9.0.0  # MySQL Connector (alternative)
+
+# Firebase for authentication and additional Firebase features
+firebase-admin==6.0.1
+
+# Session management and security
+Flask-Session==0.8.0
+Flask-WTF==1.2.1
+WTForms==3.1.2
+itsdangerous==2.2.0
+
+# Template rendering
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+
+# Additional utility packages
+blinker==1.8.2  # For signal support in Flask
+cachelib==0.13.0  # Caching library for sessions and other utilities
+click==8.1.7  # Command line interface
+msgspec==0.18.6  # Message serialization/deserialization
+python-dotenv==0.21.0  # Environment variable management
+pillow==11.0.0  # Image processing library
+
+# Optional MySQL client for Python (install only if needed)
+mysqlclient==2.2.5
